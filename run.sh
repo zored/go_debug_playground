@@ -4,6 +4,7 @@ set -ex
 case $1 in
    debug)
        echo versions
+       go env
        go version
        dlv version
 
